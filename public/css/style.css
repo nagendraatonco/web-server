@@ -1,0 +1,41 @@
+body {
+    color : #222;
+    margin: 0 auto;
+    padding: 0 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 45px;
+}
+
+footer {
+    /* border-top: 1px solid black; */
+    padding : 20px 0
+
+}
+
+header a {
+    color: #768;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+input {
+    border : 1px solid #333333;
+    padding :8px
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #887775;
+    background: #674653;
+    color: #fe9;
+    padding: 8px;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body>
+    {{>header}}
+    <p>Use this website to get the weather forecast</p>
+    <form action="">
+        <input type="text" placeholder="Location">
+        <button type="search">Search</button>
+    </form>
+    <p id="err"></p>
+    <p id="data"></p>
+    {{>footer}}
+    <script src="/js/index.js"></script>
+</body>
+</html>
