@@ -4,7 +4,7 @@ const path = require('path');
 const hbs = require('hbs');
 const geocode = require('./map')
 const forecast = require('./forecast')
-const port = 3000;
+const port = process.env.PORT || 3000;
 console.log(__dirname)
 const publicFolder = path.join(__dirname, "../public")
 app.use(express.static(publicFolder))
